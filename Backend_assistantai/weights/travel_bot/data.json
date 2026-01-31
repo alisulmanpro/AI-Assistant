@@ -1,0 +1,867 @@
+{
+    "intents": [
+      {
+        "tag": "unknown",
+        "patterns": [
+          "svxzxmbclwe lkndkjcb dsbc qpwodvv",
+          "kjhv;kdcasdasu",
+          "amhsc",
+          ",jx dcbdjcba",
+          ",zmxm bjdcbzn lwevnlw",
+          "jxbckzvx ",
+          "poreysaknzcvwev",
+          "mnjbksjdbqe",
+          "1872te167et63e3939",
+          "172653176251841",
+          "dhsdczxmcs,ls",
+          "yrgweoiufgsiubv"
+        ],
+        "responses": [
+          "Oops! Couldn't get that, am a new bot in town and learning with time. You can try rephrasing your question!"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "welcome",
+          "Hi there",
+          "Hi",
+          "how are you doing?",
+          "can you help?",
+          "is anyone still there?",
+          "is there anybody there?",
+          "Hey",
+          "helo",
+          "Hello",
+          "i hope you have a good day",
+          "i hope you are well",
+          "i hope you are doing well",
+          "what's up?"
+        ],
+        "responses": [
+          "Hi, how may I help you?"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": [
+          "good bye",
+          "i'll talk to you later",
+          "i'll get back to you",
+          "thank you for your help",
+          "it was amazing talking to you",
+          "it was very pleasant to talk to you",
+          "i was so happy to talk to you",
+          "it was great talking with you",
+          "please take care of yourself",
+          "enjoy your day",
+          "i need to go",
+          "i have to go",
+          "i have to head off",
+          "Thanks",
+          "Thank you so much",
+          "thank you"
+        ],
+        "responses": [
+          "Good bye. It was nice talking to you."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london",
+        "patterns": [
+          "Tell me something about London",
+          "Could you share some information about London?",
+          "What can you tell me about London?",
+          "I'm interested in learning about London, would you mind sharing something?",
+          "Can you provide me with some details about London?",
+          "Would you be able to give me some insight into London?",
+          "I would like to know more about London, could you tell me something?",
+          "What do you know about London?",
+          "Can you enlighten me about London?",
+          "Tell me a little something about London.",
+          "I'm curious about London, could you share some facts?"
+        ],
+        "responses": [
+          "London is the capital city of England and the United Kingdom, located in southeastern England. It is one of the most diverse and cosmopolitan cities in the world, with a population of over 8 million people. London is known for its rich history, iconic landmarks such as the Tower Bridge and Big Ben, world-class museums and galleries, and its thriving cultural scene. The city is also a major financial center, with the London Stock Exchange being one of the largest in the world. London is also famous for its vast parks and green spaces, including Hyde Park, Kensington Gardens, and Richmond Park, which provide a peaceful respite from the bustling city streets."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london_zones",
+        "patterns": [
+          "What is the number of zones in London?",
+          "How many zones in London?",
+          "In London, how many zones are there?",
+          "Could you tell me the quantity of zones in London?",
+          "How many areas are there in London?",
+          "What is the count of zones in London?",
+          "London is divided into how many zones?",
+          "How many sections is London divided into?",
+          "What is the total number of zones in London?",
+          "Can you inform me about the number of zones in London?",
+          "What's the quantity of London's zones?",
+          "London Zones"
+        ],
+        "responses": [
+          "London is divided into 9 zones for the purpose of fare charging and ticketing on the city's public transportation system, which includes the London Underground, buses, trams, and some National Rail services. Zone 1 is the central zone, covering the most densely populated and tourist-heavy areas, while the outer zones extend further out into the suburbs."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "travelcard_types",
+        "patterns": [
+          "Types of Travelcard??",
+          "What are the different types of Travelcard available?",
+          "Could you list the various kinds of Travelcard?",
+          "What are the options for Travelcard types?",
+          "I'm interested in Travelcards, what types are there?",
+          "Can you tell me about the different categories of Travelcard?",
+          "What are the available Travelcard variations?",
+          "What types of Travelcard are offered?",
+          "Could you provide information about the various Travelcard options?",
+          "What are the different Travelcard types available for purchase?",
+          "I would like to know about the different kinds of Travelcard, could you tell me?"
+        ],
+        "responses": [
+          "There are several types of Travelcards available for use on London's public transportation system, some of them are: Daily Travelcards - Valid for one day and can be used on all modes of transport within certain zones. Weekly Travelcards - Valid for one week and can be used on all modes of transport within certain zones. Monthly Travelcards - Valid for one month and can be used on all modes of transport within certain zones. Annual Travelcards - Valid for one year and can be used on all modes of transport within certain zones."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "travelcard_uses",
+        "patterns": [
+          "On which modes of transportation is the Travelcard valid?",
+          "Travel Card useages",
+          "What forms of public transportation accept the Travelcard?",
+          "Which modes of travel can I use with a Travelcard?",
+          "At which transport services can the Travelcard be utilized?",
+          "What types of transportation accept the Travelcard?",
+          "Which public transport systems honor the Travelcard?",
+          "What are the modes of transportation that allow the use of the Travelcard?",
+          "Where can I use the Travelcard for travel?",
+          "Which transportation services recognize the Travelcard as payment?",
+          "At what forms of public transportation can I use the Travelcard?"
+        ],
+        "responses": [
+            "Travelcards can be used on all modes of public transportation within the specified zones, including the London Underground, buses, trams, Docklands Light Railway (DLR), London Overground, TfL Rail, and some National Rail services. The zones that are covered by a particular Travelcard depend on the type of Travelcard purchased. It's important to note that Travelcards cannot be used on the Heathrow Express or Gatwick Express services, as they are premium rail services."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "peak_fares_timings",
+        "patterns": [
+          "During what time periods are peak fares charged?",
+          "What are the peak fare hours?",
+          "At what times of day are peak fares in effect?",
+          "When do the peak fares apply?",
+          "What are the timings for peak fares?",
+          "During which periods are peak fares implemented?",
+          "At what times are fares at their peak?",
+          "What are the hours for peak fare pricing?",
+          "When are the high-demand fare timings?",
+          "What time slots do peak fares fall under?",
+          "Peak Fares"
+        ],
+        "responses": [
+            "Peak fares are charged during the busiest times of the day when demand for public transport is high. In London, peak fares are charged on weekdays (Monday to Friday) from 6:30 am to 9:30 am, and from 4:00 pm to 7:00 pm. Fares during these peak times are generally more expensive than off-peak fares, which are charged at all other times, including weekends and public holidays. It's worth noting that peak fares vary depending on the type of transport used, the zones traveled in, and the method of payment (e.g., contactless, Oyster card, paper ticket)."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london_bridge",
+        "patterns": [
+          "In which zone London bridge is located?",
+          "What is the location of London Bridge?",
+          "Where London Bridge is located?",
+          "In which part of London can I find London Bridge?",
+          "Where in London is the London Bridge situated?",
+          "What zone is London Bridge located in?",
+          "Can you tell me which area of London the London Bridge is in?",
+          "In what zone of London can I find London Bridge?",
+          "Which part of London is home to London Bridge?",
+          "What is the London Bridge's location in London?",
+          "Which London zone does London Bridge fall under?",
+          "Where is London Bridge situated within London's geography?"
+        ],
+        "responses": [
+            "London Bridge, which spans across the River Thames, is located in central London and connects the City of London on the north side of the river to Southwark on the south side. Additionally, the London Bridge railway and Underground station is located in Travelcard Zone 1, which is the central zone of London's public transportation system."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Pakistan_embassy",
+        "patterns": [
+          "Where is the Pakistan embassy in London?",
+          "What is the location of the Pakistan embassy in London?",
+          "Where can I find the Pakistani embassy in London?",
+          "In which part of London is the embassy of Pakistan located?",
+          "What is the address of the Pakistani embassy in London?",
+          "Can you tell me where the Pakistan embassy is situated in London?",
+          "Where in London is the embassy of Pakistan situated?",
+          "What is the location of the Pakistani embassy in the city of London?",
+          "In what part of London can I locate the embassy of Pakistan?",
+          "What is the whereabouts of the embassy of Pakistan in London?",
+          "Where exactly is the Pakistani embassy located in London?",
+          "Pakistan Embassy"
+        ],
+        "responses": [
+            "The Pakistan embassy in London is located at 35-36 Lowndes Square, Knightsbridge, London SW1X 9JN, United Kingdom."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "USA_embassy",
+        "patterns": [
+          "Where is the usa embassy in London?",
+          "What is the location of the US embassy in London?",
+          "In which part of London can I find the US embassy?",
+          "Where exactly is the US embassy located in London?",
+          "What is the address of the US embassy in London?",
+          "Can you tell me where the embassy of the United States is situated in London?",
+          "Where in London is the US embassy situated?",
+          "What is the whereabouts of the US embassy in London?",
+          "In what part of London can I locate the embassy of the United States?",
+          "Where can I find the embassy of the United States in London?",
+          "What is the specific location of the US embassy in the city of London?",
+          "American Embassy",
+          "United States Embassy",
+          "US Embassy"
+        ],
+        "responses": [
+            "The USA embassy in London is located at 33 Nine Elms Ln, London SW11 7US, United Kingdom."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "famous_places",
+        "patterns": [
+          "Most Famous places in London?",
+          "What are the top tourist attractions in London?",
+          "Which places are the most popular for visitors to London?",
+          "Can you recommend some famous landmarks to see in London?",
+          "What are the must-see places in London?",
+          "Which are the most well-known tourist spots in London?",
+          "What are some of the most visited places in London?",
+          "Which attractions in London are considered the most famous?",
+          "What are the top sights and destinations to see in London?",
+          "What are the popular landmarks and places of interest in London?",
+          "What are some of the iconic places to visit in London?",
+          "Famous Places",
+          "Can you suggest some popular tourist destinations in London?",
+          "What are the must-see places for tourists in London?",
+          "What are the most visited places in London?",
+          "Which attractions should I not miss while visiting London?",
+          "What are some of the top sights to see in London?"
+        ],
+        "responses": [
+            "Certainly! London is a city with an abundance of top tourist attractions. Here are some of the most popular and iconic places to visit: The British Museum, The Tower of London, The London Eye, Buckingham Palace, Westminster Abbey, The Houses of Parliament and Big Ben, St. Paul's Cathedral, The Tate Modern, The National Gallery, The Natural History Museum. London also offers many other attractions and landmarks, including beautiful parks, bustling markets, and fascinating historical sites, making it a city with something to offer for every type of traveler."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Buckingham_gate",
+        "patterns": [
+          "What is the closest station to Buckingham gate?",
+          "Which station is nearest to Buckingham Gate?",
+          "What is the nearest train or underground station to Buckingham Gate?",
+          "Can you tell me the closest railway or tube station to Buckingham Gate?",
+          "From which station is Buckingham Gate located closest to?",
+          "What station should I head to if I want to get to Buckingham Gate?",
+          "Which transportation station is the closest to Buckingham Gate?",
+          "Where is the nearest tube or train stop to Buckingham Gate?",
+          "What is the nearest public transport station to Buckingham Gate?"
+        ],
+        "responses": [
+            "The nearest station to Buckingham Gate is Victoria Station, which is served by the Victoria line, District line, and Circle line of the London Underground, as well as National Rail services. It is located less than a 10-minute walk away from Buckingham Gate."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "London_eye_ticket",
+        "patterns": [
+          "How much the ticket of London eye?",
+          "What is the cost of a London Eye ticket?",
+          "How much does it cost to ride the London Eye?",
+          "What is the price of a ticket for the London Eye?",
+          "How much do I need to pay for a London Eye ticket?",
+          "What is the admission fee for the London Eye?",
+          "What is the fare for the London Eye ride?",
+          "How much money do I have to spend for a ticket to ride the London Eye?",
+          "What is the pricing for a London Eye admission ticket?",
+          "London Eye Ticket",
+          "London Eye price"
+        ],
+        "responses": [
+            "The cost of a standard ticket for the London Eye varies depending on several factors such as time of day, time of year, and method of purchase. The price range for a standard ticket is approximately £27 to £35 for an adult and £22 to £30 for a child. However, For more information you need to visit https://www.londoneye.com/tickets-and-prices/standard-tickets/"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "London_eye_timings",
+        "patterns": [
+          "What is the opening timing of London eye?",
+          "When does the London Eye open?",
+          "What are the operating hours for the London Eye?",
+          "What is the schedule for the London Eye's opening time?",
+          "At what time does the London Eye start operating?",
+          "What time does the London Eye begin admitting visitors?",
+          "What are the hours of operation for the London Eye attraction?",
+          "When can I visit the London Eye?",
+          "London Eye"
+        ],
+        "responses": [
+            "The opening times for the London Eye attraction vary depending on the time of year and the day of the week. Typically, the London Eye opens at 10:00 am and closes between 6:00 pm and 8:30 pm. During peak periods such as summer and school holidays, the attraction may remain open later into the evening."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "London_famous_park",
+        "patterns": [
+          "I want to visit the London famous park?",
+          "Which park is London famous for?",
+          "What is the most popular park in London?",
+          "What are some of the well-known parks in London?",
+          "Which park is considered an iconic attraction in London?",
+          "What is the name of the most famous park in London?",
+          "Which park in London is a must-visit for tourists?",
+          "What park should I not miss when visiting London?",
+          "What is the most iconic green space in London?",
+          "London Famous Park",
+          "What are some good parks or green spaces to visit in London?",
+          "What are the top parks to visit in London?",
+          "Where can I find some beautiful green spaces in London?",
+          "What are some popular outdoor areas to explore in London?",
+          "What are some of the best parks to have a picnic in London?",
+          "Where can I find some peaceful parks to relax in London?"
+        ],
+        "responses": [
+            "The most famous park in London is Hyde Park. It is one of the largest and most popular parks in the city and attracts millions of visitors each year. The park is home to several famous landmarks, such as the Serpentine Lake, the Diana, Princess of Wales Memorial Fountain, and the Speakers' Corner. Other notable parks in London include St. James's Park, Regent's Park, Greenwich Park, and Richmond Park."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "London_best_hotels",
+        "patterns": [
+          "Best five star hotel name?",
+          "London Best Hotels",
+          "What are some of the best five-star hotels in London?",
+          "Can you recommend some luxurious five-star hotels in London?",
+          "Which hotels in London are considered the top five-star options?",
+          "What are the top-rated five-star hotels in London?",
+          "Which five-star hotels in London are the most highly recommended?",
+          "What are some of the most prestigious five-star hotels in London?",
+          "Can you suggest some of the finest five-star hotels in London?",
+          "Where can I find the most luxurious five-star hotels in London?",
+          "What are some of the top-rated hotels in London?",
+          "Can you recommend some of the best hotels to stay at in London?",
+          "Which hotels in London are considered the most luxurious or prestigious?",
+          "What are some highly recommended hotels in London?",
+          "Where are the finest accommodations in London?",
+          "What are the most popular hotels to stay at in London?",
+          "Can you suggest some top-rated hotels for a stay in London?",
+          "Where can I find the best places to stay in London?",
+          "Tell me about the best hotel in london",
+          "best hotels in london"
+        ],
+        "responses": [
+            "Here are some top-rated and five-star hotels in London: The Ritz London, The Dorchester, Mandarin, Oriental Hyde Park, Rosewood London, Four Seasons Hotel London at Park Lane, The Connaught, The Savoy, Shangri-La Hotel at The Shard, Claridge's, The Langham, London. Please note that there are many other excellent five-star hotels in London, but these are some of the most highly rated and recommended by traveler's."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "London_shopping_mall",
+        "patterns": [
+          "Biggest shopping mall in london?",
+          "What is the largest shopping center in London?",
+          "Which shopping mall is the biggest in London?",
+          "Can you tell me the name of the largest retail complex in London?",
+          "What is the most expansive shopping center in London?",
+          "Which shopping center in London has the most retail space?",
+          "What is the most massive shopping mall in London?",
+          "Which shopping center boasts the largest square footage in London?",
+          "What is the biggest shopping precinct in London?",
+          "Which retail destination in London has the most stores and shops?",
+          "What is the largest shopping venue in the capital city of London?",
+          "London Shopping Mall",
+          "London Biggest Shopping Mall",
+          "Where are the best places to go shopping in London?",
+          "Can you recommend some popular shopping areas in London?",
+          "What are the top shopping destinations in London?",
+          "Where can I find good shopping districts in London?",
+          "What are the most famous shopping areas in London?",
+          "What are the popular shopping areas in London?",
+          "Tell me the biggest shopping mall in london",
+          "Tell me the biggest mall in london",
+          "biggest mall in london",
+          "biggest mall"
+        ],
+        "responses": [
+            "The largest shopping mall in London is Westfield London, which is located in Shepherd's Bush in the west of the city. It has over 300 stores and covers an area of 2.6 million square feet."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "London_museum",
+        "patterns": [
+          "Any suggestion about museums?",
+          "Could you recommend any museums to visit in London?",
+          "What are some of the top museums to visit in London?",
+          "Can you suggest any museums in London worth visiting?",
+          "Which museums would you recommend visiting in London?",
+          "What are some must-see museums in London?",
+          "What museums in London do you suggest checking out?",
+          "Are there any museums in London that you would recommend?",
+          "Can you give me some suggestions for museums to visit in London?",
+          "What are the best museums to see in London?",
+          "Could you point me in the direction of some interesting museums to visit in London?",
+          "I'm interested in visiting museums in London, do you have any recommendations?",
+          "What are some of the top-rated museums in London?",
+          "What museums in London are worth visiting?",
+          "London Museum",
+          "Museum"
+        ],
+        "responses": [
+            "Sure, there are many museums to visit in London. Some popular ones include: British Museum: A world-famous museum with a vast collection of artifacts and art from all over the world, including the Rosetta Stone, the Parthenon sculptures, and Egyptian mummies. Natural History Museum: Home to an impressive collection of natural specimens, including dinosaur skeletons, animal specimens, and a huge blue whale skeleton. Science Museum: An interactive museum dedicated to science and technology, with exhibits on topics such as space exploration, energy, and communication. Victoria and Albert Museum: A museum of art and design, with collections spanning 5,000 years of human creativity, including ceramics, fashion, furniture, and photography. Tate Modern: A modern and contemporary art museum housed in a former power station, featuring works by artists such as Picasso, Warhol, and Hockney. These are just a few examples, but there are many other museums in London that are worth visiting as well."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "London_oldest_university",
+        "patterns": [
+          "The oldest university in london?",
+          "What is the oldest university in London and what are some facts about it?",
+          "Which university holds the title of the oldest in London and what interesting information can you share about it?",
+          "What is London's oldest university and what are some noteworthy facts about it?",
+          "Can you provide information on the oldest university in London and some interesting facts about it?",
+          "Which is the most ancient university in London and what are some significant details about it?",
+          "What is the oldest university in London and what are some interesting facts about it?",
+          "Which university holds the distinction of being the oldest in London and what are some notable facts about it?",
+          "I would like to know about the oldest university in London and any interesting information about it, could you help me with that?",
+          "Could you tell me about the oldest university located in London and share some interesting facts about it?",
+          "What is the name of the oldest university in London and what are some noteworthy facts about it?",
+          "London Oldes University"
+        ],
+        "responses": [
+            "The University of Oxford, established in the 12th century, is the oldest university in the English-speaking world. It consists of over 40 colleges and halls, with notable alumni including 28 British prime ministers, over 100 Nobel laureates, and famous writers such as J.R.R. Tolkien and Oscar Wilde. The university has produced influential figures in a variety of fields, from mathematics and science to politics and the arts. Its world-renowned Bodleian Library, established in the 14th century, is one of the oldest libraries in Europe and holds over 13 million printed items."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "off_peak_fares_timings",
+        "patterns": [
+          "During what time periods are off peak fares charged?",
+          "When do the off-peak fares apply?",
+          "What are the hours for off-peak fare pricing?",
+          "What are the time slots for off-peak fares?",
+          "At what times of day are off-peak fares in effect?",
+          "When are the low-demand fare timings?",
+          "During which periods are off-peak fares implemented?",
+          "When do off-peak fares apply for travel?",
+          "What are the hours for off-peak fares in a travel card?",
+          "At what times are off-peak fares charged?",
+          "What is the schedule for off-peak fare pricing?",
+          "During which periods are off-peak fares in effect?",
+          "When can I take advantage of off-peak fares?",
+          "What are the timings for reduced fares in a travel card?",
+          "When are fares lower due to off-peak hours?",
+          "What are the times for discounted travel fares?",
+          "Off-Peak Fares"
+        ],
+        "responses": [
+            "Off-peak fares are charged at all other times that are not considered peak times. In London, off-peak fares are typically charged on weekdays outside of the peak hours of 6:30 am to 9:30 am, and from 4:00 pm to 7:00 pm. They are also charged on weekends and public holidays, and the exact timings may vary depending on the mode of transport and the zones traveled in, Monday to Friday"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "famous_studio_london",
+        "patterns": [
+          "I Want to tour famous studio of london?",
+          "Can you recommend a famous studio to tour in London?",
+          "What are some popular studios to visit in London?",
+          "I'm interested in touring a well-known studio in London, any suggestions?",
+          "What are some of the top studios to see on a tour in London?",
+          "Can you recommend a must-visit studio for a London tour?",
+          "What are some popular London studios for touring?",
+          "Can you recommend any famous studios to visit in London?",
+          "I'm interested in touring a studio in London, which one should I go to?",
+          "Which studios in London are open for tours?",
+          "Are there any well-known studios in London that offer tours?",
+          "I want to explore a renowned studio in London, what are my options?",
+          "Famous studio in London",
+          "Famous Studio",
+          "Studio"
+        ],
+        "responses": [
+            "Sure, if you're interested in touring a famous studio in London, you may be referring to the Warner Bros. Studio Tour London - The Making of Harry Potter. This studio is located in Leavesden, just outside of London, and offers visitors a behind-the-scenes look at the making of the Harry Potter film series. You'll be able to see the actual sets, costumes, and props used in the movies, as well as learn about the special effects and other techniques used to bring the magical world of Harry Potter to life. It's a popular attraction, so be sure to book your tickets in advance!"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london_bus_tour",
+        "patterns": [
+          "Is any bus tour in london?",
+          "Is there a bus tour that covers all of London city?",
+          "Are there any bus tours that offer a comprehensive tour of London?",
+          "Can you recommend a bus tour that shows all the major attractions of London?",
+          "Is it possible to take a single bus tour to see the entire city of London?",
+          "I'm interested in a bus tour that covers all the famous sights of London. Is there one available?",
+          "Is there a hop-on-hop-off bus tour that covers all of London's major attractions?",
+          "Can you suggest a bus tour that takes you around all the important places in London?",
+          "I'm looking for a bus tour that can show me the entire city of London. Do you know of any?",
+          "Is there a sightseeing bus that goes around the whole of London?",
+          "Are there any buses that provide a complete tour of London city?",
+          "Is there a bus tour that covers all of the major sights in London?",
+          "Can I take a bus to see all the landmarks in London?",
+          "Is there a sightseeing bus that goes around the entire city of London?",
+          "Is there a bus tour that covers all the important places in London?",
+          "I want to take a bus tour of London, is there a route that covers all the major attractions?",
+          "Is there a hop-on hop-off bus tour that goes to all the popular spots in London?",
+          "Can I take a bus to see all the famous sights and landmarks in London?",
+          "I'm looking for a bus tour that covers the entire city of London, is there one available?",
+          "London city tour through bus",
+          "Bus that tour the whole city",
+          "Where can I find the bus for a city tour in London?",
+          "What is the location to catch a sightseeing bus in London?",
+          "Can you tell me where to board the city tour bus in London?",
+          "I'm looking for the place to take the tour bus in London, where can I go?",
+          "What is the pick-up point for the London city tour bus?",
+          "Where do I need to go to catch the hop-on-hop-off bus in London?",
+          "Could you let me know where to find the bus for touring the city of London?",
+          "What is the starting point for the sightseeing bus tour in London?",
+          "Where can I catch the hop-on-hop-off bus that covers all the attractions in London?",
+          "I want to take the city tour bus in London, where should I head to?",
+          "how do i get city tour"
+        ],
+        "responses": [
+            "Yes, there are several bus companies in London that offer hop-on hop-off tours, which provide a complete tour of the city's major attractions. These tours usually have open-top buses that allow you to see the city's landmarks while enjoying a panoramic view. The tours usually last for a few hours and stop at various points of interest, allowing you to get off and explore before getting back on the bus to continue the tour. Some of the popular bus tour companies in London include Big Bus Tours, The Original Tour, and Golden Tours. To find a bus for a city tour in London, you can look for the designated bus stops for tour buses in popular areas such as Trafalgar Square, Piccadilly Circus, or Covent Garden. There are also several tour bus companies that operate in London, such as Big Bus Tours, The Original Tour, and Golden Tours, which have multiple pickup locations throughout the city. Additionally, you can book a tour in advance through their websites or at tourist information centers."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london_cinemas",
+        "patterns": [
+          "Suggest any cinema in london?",
+          "Can you recommend a cinema in London?",
+          "What are some good cinemas to watch movies in London?",
+          "Where should I go to watch a movie in London?",
+          "Do you have any suggestions for cinemas to visit in London?",
+          "Can you recommend a movie theater in London?",
+          "What cinema do you suggest in London?",
+          "Where can I go to see a movie in London?",
+          "Could you give me a recommendation for a cinema in London?",
+          "I'm looking for a good movie theater in London, any suggestions?",
+          "What are some of the best cinemas to visit in London?",
+          "Cinemas in london"
+        ],
+        "responses": [
+            "I would be happy to suggest some cinemas in London. Some popular options include Odeon, Vue, Cineworld, Curzon, Cineworld Cinema and Picturehouse. These cinemas have multiple locations throughout the city, so you can choose the one that is most convenient for you. Each cinema has its own unique features and offerings, so it's worth checking out their websites to see what films are currently showing and what special events they have coming up."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london_airports",
+        "patterns": [
+          "How many airports in london?",
+          "What is the number of airports in London?",
+          "Can you tell me how many airports are there in London?",
+          "What is the count of airports in London?",
+          "Are there multiple airports in London, and if so, how many?",
+          "In London, how many airports are there?",
+          "How many airports can be found in London?",
+          "Airports",
+          "London Airports",
+          "Can you tell me the names of all the airports in London and how many there are?",
+          "How many airports are there in London, and what are their names?",
+          "What is the total number of airports in London, and can you list them?",
+          "List all the airports in London and their total number.",
+          "Please provide the names of all the airports in London and tell me how many there are.",
+          "I'm wondering about the airports in London. How many are there, and what are their names?"
+        ],
+        "responses": [
+            "There are six main airports in London: Heathrow, Gatwick, Stansted, Luton, London City, and Southend."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "restaurants",
+        "patterns": [
+          "Any Pakistani famous restaurant?",
+          "What are some popular Pakistani restaurants in London?",
+          "Can you suggest any Pakistani restaurant in London?",
+          "I'm looking for a well-known Pakistani restaurant in London, any recommendations?",
+          "Could you provide me with the names of some famous Pakistani restaurants in London?",
+          "Where in London can I find famous Pakistani cuisine?",
+          "Can you recommend a popular Pakistani restaurant in London?",
+          "I am looking for a Pakistani restaurant that serves famous dishes, where can I find one in London?",
+          "What are some well-known Pakistani restaurants in London?",
+          "Is there a place in London where I can try authentic Pakistani food?",
+          "Can you suggest any famous Asian cuisine restaurants in London?",
+          "Where can I find popular Asian cuisine in London?",
+          "Could you recommend any renowned Asian food spots in London?",
+          "I'm looking for the best Asian cuisine in London. Where should I go?",
+          "What are some popular Asian food options in London and where can I find them?",
+          "Where are the top spots for Asian cuisine in London?",
+          "Asian food",
+          "Pakistani Food",
+          "Indian Food",
+          "Can you suggest any popular Indian restaurants in London?",
+          "What are some popular Indian restaurants in London?",
+          "Can you recommend any good Indian restaurants in London?",
+          "Where can I go for delicious Indian food in London?",
+          "Which restaurants in London serve the best Indian cuisine?",
+          "I am looking for famous Indian food spots in London, any recommendations?",
+          "Where can I find authentic Indian cuisine in London?",
+          "What are the top-rated Indian restaurants in London?",
+          "Where should I go to experience the best Indian food in London?",
+          "What Indian restaurants are a must-visit in London?",
+          "I want to try some amazing Indian food in London, where should I go?",
+          "Can you recommend some good restaurants to try in London?",
+          "What are the best places to eat in London?",
+          "Where can I find delicious food in London?",
+          "What are some of the top restaurants in London?",
+          "Can you suggest some popular dining spots in London?",
+          "Which restaurants in London are worth visiting?",
+          "What are the must-try restaurants in London?",
+          "Where can I find unique dining experiences in London?",
+          "What are some good restaurants to try in London?"
+        ],
+        "responses": [
+            "London is home to a vast range of restaurants offering a variety of cuisines, including Asian, Pakistani, and Indian. Some popular areas in London known for their diverse and authentic cuisine include Brick Lane, Tooting, and Southall. Additionally, some well-known restaurants for Pakistani and Indian cuisine in London include Dishoom, Tayyabs, Gymkhana, Masala Zone, Benares, Chutney Mary, Hoppers, Darjeeling Express, Lahore Kebab House, Royel nawab and Darjeeling Express. These restaurants are known for their authentic and delicious food, and are definitely worth a visit if you're in London and looking to try out some amazing South Asian cuisine."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "public_transportation",
+        "patterns": [
+          "How can I get around the city using public transport?",
+          "What public transportation options are available for navigating the city?",
+          "What is the best way to travel around London using public transport?",
+          "Can you suggest some modes of public transportation for getting around the city?",
+          "How do I use public transport to travel within London?",
+          "What are the public transportation routes that operate in London?",
+          "Is public transport a reliable way to get around the city?",
+          "Can you recommend a public transport option that is affordable and efficient for traveling in London?",
+          "Public Transport",
+          "London Transport",
+          "London Travel"
+        ],
+        "responses": [
+            "London has an extensive public transport network, including the Tube (underground train system), buses, trains, trams, and river buses. The easiest and most cost-effective way to get around the city is by using an Oyster card or contactless payment, which can be used on all modes of public transport. You can also use the Transport for London (TfL) journey planner app or website to plan your journey and find the best routes and fares. Additionally, there are also options for cycling, walking, and taxi services available in the city."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "best_time_to_visit_london",
+        "patterns": [
+          "What is the ideal season to travel to London?",
+          "When is the most suitable time to visit London?",
+          "When is the best time to plan a trip to London?",
+          "What is the optimal time of the year to go to London?",
+          "Which season is recommended for visiting London?",
+          "What time of year is perfect for a trip to London?",
+          "When is the ideal time to visit London?",
+          "What is the most suitable season to travel to London?",
+          "Which months are recommended for visiting London?",
+          "What is the peak season for tourism in London?",
+          "When should I plan my trip to London for the best experience?",
+          "At what time of the year should I visit London?",
+          "Is there a specific time of year when London is particularly beautiful?",
+          "When is the best time to go sightseeing in London?",
+          "What season offers the most pleasant weather for visiting London?",
+          "When is the off-season for tourism in London?",
+          "Best Time to visit London",
+          "Best time to visit UK (United Kingdom)",
+          "What is the best time of year to visit London?"
+        ],
+        "responses": [
+            "The best time of year to visit London can depend on personal preferences, but generally, the months of March to May and September to November are considered good times to visit. During these periods, the weather is generally mild, and there are fewer crowds compared to the summer months. However, it's worth noting that London is a year-round destination, and each season offers unique experiences and events to enjoy."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "affordable_accomodations",
+        "patterns": [
+          "Where can I find affordable accommodation in London?",
+          "Can you recommend budget-friendly places to stay in London?",
+          "Where are some inexpensive accommodation options in London?",
+          "What are some affordable places to stay in London?",
+          "I'm on a tight budget, where can I find cheap accommodation in London?",
+          "Are there any budget hotels or hostels in London that you would recommend?",
+          "Where can I find reasonably priced accommodation in London?",
+          "Where can I find budget-friendly places to stay in London?",
+          "What are some affordable accommodation options in London?",
+          "Can you recommend inexpensive places to stay in London?",
+          "Where can I find cheap accommodation in London?",
+          "What are some budget-friendly hotels/hostels/Airbnbs in London?",
+          "I'm on a tight budget, where should I look for accommodation in London?",
+          "Affordable places to live in london",
+          "Affordable accomodation in london",
+          "Accomodation in London",
+          "Tell me about the cheapest accomodation in London",
+          "Cheapest accomodation",
+          "Tell me the affordable accomodation in london"
+        ],
+        "responses": [
+            "There are many options for finding affordable accommodation in London. Some popular choices include hostels, budget hotels, and short-term rentals. Areas like Bayswater, Camden, and Earls Court are known for their budget-friendly accommodations. Additionally, websites like Airbnb, Booking.com, and Hostelworld can help you find affordable options for your stay in London."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "currency_exchange",
+        "patterns": [
+          "Where can I exchange currency in London?",
+          "Currency Exchange Options in London",
+          "Exchange currency",
+          "Where can I convert currency in London?",
+          "What are the best places to exchange money in London?",
+          "Where can I get the best exchange rates in London?",
+          "What are the currency exchange options in London?",
+          "Where can I find a currency exchange bureau in London?",
+          "What are some recommended currency exchange offices in London?",
+          "What are some places to exchange currency in London?",
+          "Where can I convert money in London?",
+          "What are my options for changing currency in London?",
+          "Where can I get the best exchange rate for my money in London?",
+          "What currency exchange services are available in London?",
+          "Where can I find foreign currency exchange services in London?",
+          "Which banks or currency exchange offices are good for exchanging currency in London?",
+          "Can you recommend any places in London to exchange foreign currency?"
+        ],
+        "responses": [
+            "There are several options for exchanging currency in London. You can exchange currency at banks, post offices, exchange bureaus, and some hotels. Some popular options for exchanging currency in London include Travelex, No1 Currency, and Thomas Exchange Global. It's important to compare rates and fees before choosing where to exchange your currency. Additionally, some credit cards and debit cards may offer favorable exchange rates and may not charge foreign transaction fees, so it's worth checking with your bank or credit card company before exchanging currency."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london_street_markets",
+        "patterns": [
+          "Are there any famous street markets in London?",
+          "What are some well-known street markets in London?",
+          "Can you recommend any popular markets in London that are held outdoors?",
+          "Where can I find famous street markets in London?",
+          "What are some of the most iconic street markets in London?",
+          "Are there any notable open-air markets in London that are worth checking out?",
+          "Which street markets in London are famous for their unique atmosphere and merchandise?",
+          "What are some street markets in London that tourists should visit?",
+          "I'm interested in exploring some street markets in London. Do you have any recommendations?",
+          "Where can I experience the hustle and bustle of a typical London market?",
+          "What are some well-known street markets in London?",
+          "Can you recommend any popular markets to visit in London?",
+          "Are there any must-see street markets in London?",
+          "Which street markets in London are worth checking out?",
+          "Where can I find famous markets in London?",
+          "What are some of the top street markets in London?"
+        ],
+        "responses": [
+            "Yes, there are several famous street markets in London that offer a unique shopping experience. Some of the popular ones include Camden Market, Portobello Road Market, Borough Market, Brick Lane Market, and Columbia Road Flower Market."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "london_day_trips",
+        "patterns": [
+          "Are there any day trips or excursions I can take from London?",
+          "Can you suggest any day trips or excursions from London?",
+          "What are some popular day trips or excursions that can be taken from London?",
+          "I want to explore beyond London. Are there any recommended day trips or excursions?",
+          "Where can I go for a day trip or excursion from London?",
+          "What are some nearby destinations that are worth a day trip from London?",
+          "What are some nearby places I can visit on a day trip from London?",
+          "Can you suggest any interesting excursions that depart from London?",
+          "What are some popular day tours from London?",
+          "Are there any must-see destinations near London that I can visit in a day?",
+          "Which cities or attractions can I easily visit as a day trip from London?",
+          "What are some recommended day trips outside of London?",
+          "Where can I go on a one-day trip from London?",
+          "What are some popular places to explore near London on a day excursion?",
+          "Can you recommend any tours or activities for a day trip from London?"
+        ],
+        "responses": [
+            "Certainly! There are many options for day trips and excursions from London. Here are some suggestions: Stonehenge: Visit the ancient stone circle in Wiltshire, about two hours from London. Oxford and Cambridge: Visit two of England's most famous university towns. Windsor Castle: Visit the official residence of the Queen of England, located about an hour from London. Bath: Visit the historic Roman spa town and enjoy the famous Roman Baths. Stratford-upon-Avon: Visit the birthplace of Shakespeare and see performances of his plays at the Royal Shakespeare Company. Brighton: Visit the seaside town and enjoy the beach, pier, and the famous Brighton Pavilion. Canterbury: Visit the historic cathedral city and learn about the history of Christianity in England. Harry Potter Studio Tour: Visit the Warner Bros. Studio and explore the making of the Harry Potter movies. These are just a few suggestions, but there are many more day trips and excursions available from London depending on your interests."
+        ],
+        "context": [
+          ""
+        ]
+      }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.cs-main-container {
+  border-radius: 10px;
+}
+
+.cs-message-list, .cs-conversation-header, .cs-sidebar, .cs-message-input, .cs-typing-indicator, .cs-avatar {
+  @apply bg-slate-900 !important;
+}
+
+.cs-expansion-panel__header, .cs-expansion-panel__content {
+  @apply bg-slate-800 !important;
+  @apply text-slate-400 !important;
+}
+
+.cs-conversation-header {
+}
+
+.cs-sidebar {
+  max-width: 230px !important;
+}
+
+.cs-message:not(:only-child) {
+  margin-top: 1.2em !important;
+}
+
+.cs-message__html-content {
+  text-align: left;
+}
+
+.cs-message-list {
+  padding-top: 0.5rem;
+}
+
+.cs-message__footer {
+  color: white !important;
+}

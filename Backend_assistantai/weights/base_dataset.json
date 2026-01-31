@@ -1,0 +1,79 @@
+{
+    "intents": [
+      {
+        "tag": "unknown",
+        "patterns": [
+          "svxzxmbclwe lkndkjcb dsbc qpwodvv",
+          "kjhv;kdcasdasu",
+          "amhsc",
+          ",jx dcbdjcba",
+          ",zmxm bjdcbzn lwevnlw",
+          "jxbckzvx ",
+          "poreysaknzcvwev",
+          "mnjbksjdbqe",
+          "1872te167et63e3939",
+          "172653176251841",
+          "dhsdczxmcs,ls",
+          "yrgweoiufgsiubv"
+        ],
+        "responses": [
+          "Oops! Couldn't get that, am a new bot in town and learning with time. You can try rephrasing your question!"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "welcome",
+          "Hi there",
+          "Hi",
+          "how are you doing?",
+          "can you help?",
+          "is anyone still there?",
+          "is there anybody there?",
+          "Hey",
+          "helo",
+          "Hello",
+          "i hope you have a good day",
+          "i hope you are well",
+          "i hope you are doing well",
+          "what's up?"
+        ],
+        "responses": [
+          "Hi, how may I help you?"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": [
+          "good bye",
+          "i'll talk to you later",
+          "i'll get back to you",
+          "thank you for your help",
+          "it was amazing talking to you",
+          "it was very pleasant to talk to you",
+          "i was so happy to talk to you",
+          "it was great talking with you",
+          "please take care of yourself",
+          "enjoy your day",
+          "i need to go",
+          "i have to go",
+          "i have to head off",
+          "Thanks",
+          "Thank you so much",
+          "thank you"
+        ],
+        "responses": [
+          "Good bye. It was nice talking to you."
+        ],
+        "context": [
+          ""
+        ]
+      }
+    ]
+}

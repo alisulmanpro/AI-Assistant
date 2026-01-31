@@ -1,0 +1,611 @@
+{
+    "intents": [
+      {
+        "tag": "unknown",
+        "patterns": [
+          "svxzxmbclwe lkndkjcb dsbc qpwodvv",
+          "kjhv;kdcasdasu",
+          "amhsc",
+          ",jx dcbdjcba",
+          ",zmxm bjdcbzn lwevnlw",
+          "jxbckzvx ",
+          "poreysaknzcvwev",
+          "mnjbksjdbqe",
+          "1872te167et63e3939",
+          "172653176251841",
+          "dhsdczxmcs,ls",
+          "yrgweoiufgsiubv"
+        ],
+        "responses": [
+          "Oops! Couldn't get that, am a new bot in town and learning with time. You can try rephrasing your question!"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "welcome",
+          "Hi there",
+          "Hi",
+          "how are you doing?",
+          "can you help?",
+          "is anyone still there?",
+          "is there anybody there?",
+          "Hey",
+          "helo",
+          "Hello",
+          "i hope you have a good day",
+          "i hope you are well",
+          "i hope you are doing well",
+          "what's up?"
+        ],
+        "responses": [
+          "Hi, how may I help you?"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": [
+          "good bye",
+          "i'll talk to you later",
+          "i'll get back to you",
+          "thank you for your help",
+          "it was amazing talking to you",
+          "it was very pleasant to talk to you",
+          "i was so happy to talk to you",
+          "it was great talking with you",
+          "please take care of yourself",
+          "enjoy your day",
+          "i need to go",
+          "i have to go",
+          "i have to head off",
+          "Thanks",
+          "Thank you so much",
+          "thank you"
+        ],
+        "responses": [
+          "Good bye. It was nice talking to you."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "UH",
+        "patterns": [
+          "What information can you give me about the University of Hertfordshire?",
+          "Can you tell me about the University of Hertfordshire?",
+          "What is the University of Hertfordshire?",
+          "Could you provide me with details about the University of Hertfordshire?",
+          "I would like to know about the University of Hertfordshire, can you help me?",
+          "What can you tell me about the University of Hertfordshire?",
+          "UH",
+          "Tell me something about University of Hertfordshire?",
+          "Tell me something about UH?"
+        ],
+        "responses": [
+            "The University of Hertfordshire is a public research university located in Hatfield, Hertfordshire, United Kingdom. It was founded in 1952 as Hatfield Technical College and gained university status in 1992. The university has over 25,000 students and offers a wide range of undergraduate and postgraduate degree programs across various disciplines, including science, engineering, business, humanities, and the arts. The university is known for its strong industry links and has partnerships with a number of leading companies, including Microsoft, Samsung, and the BBC. It has also been awarded the Times Higher Education award for 'Entrepreneurial University of the Year' in 2010 and the 'Outstanding Support for Students' award in 2018. The university has a vibrant and diverse campus community and provides a wide range of student support services, including accommodation, careers advice, and academic support."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "transfer_course",
+        "patterns": [
+          "How I can transfer the course?",
+          "What is the process for transferring the course?",
+          "Can you explain how to transfer the course?",
+          "Is there a way to transfer the course, and if so, how?",
+          "What are the steps for transferring the course?",
+          "Could you provide instructions on transferring the course?",
+          "I'm looking to transfer the course, what should I do?",
+          "In what manner can the course be transferred?",
+          "What options are available for transferring the course?",
+          "Please advise on how to transfer the course.",
+          "What is the procedure for course transferal?",
+          "Course Transfer"
+        ],
+        "responses": [
+          "Hi, Thank You for Contacting. For transferring the course first you need to contact with your program leader then you need to fill out this form https://ask-herts-production.s3.eu-west-2.amazonaws.com/f2ip7rjh1x75713dtb359l206mxk#file_id=1541. For more information you will also visit our website https://ask.herts.ac.uk/transferring-courses"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "holidays",
+        "patterns": [
+          "I'm interested in taking a vacation in my home country.",
+          "My intention is to go on a holiday to my country of origin.",
+          "I'm considering traveling to my home country for a vacation.",
+          "I have a desire to visit my native country for a holiday.",
+          "Going on holiday to my back home country is what I want to do.",
+          "I am contemplating a holiday in the country where I am originally from.",
+          "My plan is to take a vacation in my home nation.",
+          "I'm thinking of traveling to my country of birth for a holiday.",
+          "I would like to visit my homeland for a vacation.",
+          "Taking a holiday in my home country is something I want to do.",
+          "I want to go holiday in my back home country?",
+          "I need to spend holidays in my home town"
+        ],
+        "responses": [
+          "Hi really nice to hear this that you want to spend holidays in your home country. For this you will need to visit this link https://ask.herts.ac.uk/absence-your-tier-4-visa and you will get all the information related to your holidays. Thank You."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "personal_information",
+        "patterns": [
+          "I want to update my personal information?",
+          "I need to make changes to my personal information.",
+          "My personal information needs to be updated.",
+          "I'm interested in updating my personal details.",
+          "I want to modify my personal information.",
+          "My personal data needs to be updated.",
+          "I'm considering making updates to my personal details.",
+          "I need to update my personal records.",
+          "I want to revise my personal information.",
+          "I'm looking to update my personal particulars.",
+          "My intention is to make updates to my personal information.",
+          "Personal Information"
+        ],
+        "responses": [
+          "Thank you for contacting us regarding the update of your personal information. We are happy to assist you with this process. Kindly access your Student Record http://www.studentrecord.herts.ac.uk/ by logging in with your credentials. Once you have logged in, locate your underlined name next to your photo and click on it. From there, please verify your registered addresses to ensure their accuracy. Should you wish to modify any of your contact information, kindly click on the edit button located below the specific field. Once you have made the necessary updates, please be sure to click on the UPDATE button to save your changes. We hope this process has been a pleasant one for you, and we remain at your service should you require further assistance."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "easter_holidays",
+        "patterns": [
+          "when easter holiday will be start?",
+          "When is the start date for the Easter holiday?",
+          "On what date will the Easter holiday commence?",
+          "When will the Easter holiday period begin?",
+          "What is the start time for the Easter break?",
+          "When does the Easter vacation start?",
+          "At what point will the Easter holiday period begin?",
+          "When can we expect the Easter holiday to start?",
+          "What is the commencement date for the Easter holiday?",
+          "When does the Easter recess begin?",
+          "At what time will the Easter holiday period start?",
+          "Easter Holidays"
+        ],
+        "responses": [
+          "The University of Hertfordshire's term and semester dates, including the start date for the Easter holiday, can be found on the university's website at https://www.herts.ac.uk/study/term-and-semester-dates. I recommend visiting this page for the most up-to-date information on the academic calendar. Please let me know if you have any other questions or if there is anything else I can help you with."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "student_letter",
+        "patterns": [
+          "I need a student letter",
+          "I want student letter",
+          "Could I request a student letter, please?",
+          "Is it possible to obtain a student letter?",
+          "I require a student letter. How can I get one?",
+          "Can you assist me in obtaining a student letter?",
+          "I would like to request a letter for students. How do I go about doing so?",
+          "May I obtain a student letter from your institution?",
+          "Could you provide me with a student letter?",
+          "Is there a process for obtaining a student letter?",
+          "I am interested in obtaining a letter for students. How can I do this?",
+          "How do I go about obtaining a student letter?",
+          "Student Letter"
+        ],
+        "responses": [
+            "To obtain a student letter from the University of Hertfordshire, you can follow the steps provided on this page: https://ask.herts.ac.uk/student-letters-cae5998a-cefd-447d-ab93-526064295952. The page provides guidance on how to request different types of letters, including enrollment letters, confirmation of studies letters, and letters for visa purposes. You will also find information on the turnaround times for letter requests and how to collect your letter once it is ready. If you have any further questions or concerns, please do not hesitate to contact the Student Centre."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "timetable",
+        "patterns": [
+          "I want to see my time table?",
+          "How can I access my timetable?",
+          "Is it possible for me to view my schedule?",
+          "I would like to see my class timetable. What should I do?",
+          "Can you assist me in accessing my timetable?",
+          "Is there a way to check my timetable online?",
+          "I need to view my timetable. What are my options?",
+          "Could you guide me on how to view my timetable?",
+          "What steps do I need to take to access my timetable?",
+          "May I inquire how to see my timetable?",
+          "How do I go about checking my class timetable?",
+          "Time Table"
+        ],
+        "responses": [
+            "You can access your timetable for the 2022-2023 academic year at the University of Hertfordshire by visiting this link: https://ask.herts.ac.uk/timetables#Student_timetable_2022-2023. This page provides information on how to access and understand your timetable, as well as frequently asked questions about timetables. If you have any further questions or concerns about your timetable, please contact the relevant academic department for assistance. They will be able to provide you with further guidance and support."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "university_accomodation",
+        "patterns": [
+          "How can I get the university accommodation?",
+          "What is the process for obtaining university accommodation?",
+          "Is there a way for me to apply for university housing?",
+          "How do I go about securing accommodation at the university?",
+          "What are the steps to take in order to get university housing?",
+          "I am interested in university accommodation. What should I do?",
+          "Can you guide me on how to obtain university housing?",
+          "What is the procedure for getting accommodation through the university?",
+          "Is it possible for me to apply for university housing online?",
+          "I would like to know how to get accommodation at the university.",
+          "Could you provide information on how to obtain university accommodation?",
+          "How can I get the university hostel?",
+          "university hostel",
+          "hostel",
+          "university accomodation"
+        ],
+        "responses": [
+            "To apply for university accommodation, you'll need to create an account on the accommodation portal. Follow the link provided to create your account: https://www.residences.herts.ac.uk/default.aspx?wf=Preview. If you need more information on how to apply for university housing, you can also visit the following link: https://ask.herts.ac.uk/apply-for-accommodation. This page contains more detailed instructions on the application process, as well as additional resources that may be helpful to you."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "term_and_semester_dates",
+        "patterns": [
+          "What is the term and semester date?",
+          "Can you provide me with information on the dates for the upcoming term and semester?",
+          "What are the scheduled dates for the term and semester at the university?",
+          "I am interested in knowing the term and semester dates. Could you provide me with that information?",
+          "What are the start and end dates for the upcoming term and semester?",
+          "Can you tell me when the term and semester begin and end?",
+          "I would like to know the dates for the upcoming term and semester.",
+          "Could you please give me information about the term and semester schedule?",
+          "What is the timeline for the term and semester at the university?",
+          "I need to know the term and semester dates. Can you help me with that?",
+          "When do the term and semester start and finish at the university?",
+          "Term and Semesters dates"
+        ],
+        "responses": [
+            "You can find the term and semester dates for the current academic year, as well as future years, on the University of Hertfordshire's website. Please click on the following link to access the information: https://www.herts.ac.uk/study/term-and-semester-dates. This page provides a detailed schedule of the term and semester dates for the current academic year and beyond. You'll also find information on holidays and other important dates throughout the year. If you have any questions or concerns about the term and semester dates, please don't hesitate to contact the University's student services team for further assistance."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "study_abroad",
+        "patterns": [
+          "I want to apply for study in abroad?",
+          "What are the steps I need to take to apply for overseas education?",
+          "How do I begin the process of applying to study in a foreign country?",
+          "I am considering studying abroad. How can I apply for admission?",
+          "Where can I find information on applying to study in a different country?",
+          "Is it possible for me to apply to study abroad, and if so, what is the procedure?",
+          "I want to pursue higher education in another country. How do I go about applying for admission?",
+          "Can you provide me with guidance on applying for study abroad programs?",
+          "What documents and qualifications do I need to apply for studying abroad?",
+          "How do I search for and apply to universities abroad?",
+          "What are the requirements for applying to study overseas, and how can I meet them?",
+          "How can I apply to study abroad?",
+          "I'm interested in studying abroad. How do I go about applying?",
+          "What is the process for applying to study abroad?",
+          "Can you guide me on how to apply for studying abroad?",
+          "I would like to pursue my studies abroad. How do I start the application process?",
+          "What are the countries where I can pursue my studies abroad?",
+          "Can you provide me with a list of countries where I can study abroad?",
+          "Which countries offer study abroad programs for international students?",
+          "In which countries can I enroll in a study abroad program?",
+          "What are my options for studying abroad in different countries?",
+          "Are there any specific countries that offer study abroad opportunities?",
+          "Can you suggest some countries where I can study abroad?",
+          "Which countries have universities that accept international students for study abroad programs?",
+          "What are the popular destinations for studying abroad?",
+          "Where can I go for studying abroad?"
+        ],
+        "responses": [
+            "Sure! The University of Hertfordshire offers a variety of study abroad options for students who are interested in pursuing their education overseas. To get started, you can visit our Study Abroad page at https://ask.herts.ac.uk/study-abroad, where you will find a wealth of information about the different programs that are available, the eligibility criteria, and the application process. You can also explore the various study abroad opportunities by visiting the Study Abroad Office, located in the Student Centre on the College Lane Campus. The Study Abroad team will be happy to answer any questions you may have and provide guidance on the application process. In addition, if you are looking for specific countries to study in, you can use this link to explore the different options: https://ask.herts.ac.uk/where-can-i-study-abroad. This page provides a list of countries where you can study abroad and also includes information on the types of programs available in each country."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "eligibility_for_study_abroad",
+        "patterns": [
+          "I am doing master can I apply for study in abroad program?",
+          "Can I pursue a study abroad program while doing my Master's degree?",
+          "Is it possible to apply for a study abroad program while I am enrolled in a Master's program?",
+          "Am I eligible to participate in a study abroad program if I am currently pursuing a Master's degree?",
+          "Can I apply for a study abroad opportunity as a Master's student?",
+          "Is it possible to study abroad while completing my Master's degree?",
+          "Would it be feasible to pursue a study abroad program in addition to my Master's studies?",
+          "Can I participate in a study abroad program as a graduate student?",
+          "Is it possible to combine my Master's degree with a study abroad experience?",
+          "Can I apply for a study abroad program while working towards a Master's degree?",
+          "Am I allowed to participate in a study abroad program while enrolled in a Master's program?",
+          "What are the eligibility requirements for studying abroad?",
+          "Which students are qualified for the study abroad program?",
+          "Are there any specific criteria for participating in a study abroad program?",
+          "Who can apply for a study abroad program?",
+          "What are the qualifications for studying abroad?",
+          "Is there any specific requirement for students who want to study abroad?",
+          "Who is eligible for study abroad program?"
+        ],
+        "responses": [
+            "The eligibility criteria for the study abroad program may vary depending on the specific program and the university's policies. However, in general, undergraduate students are typically the main target audience for study abroad programs. That being said, it is still worth checking with your university's study abroad office to see if there are any programs available for graduate or postgraduate students. You can find more information about the eligibility criteria and requirements for the University of Hertfordshire's study abroad program on the Study Abroad page at https://ask.herts.ac.uk/study-abroad."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "summer_school",
+        "patterns": [
+          "I want to know about the summer school?",
+          "Can you provide me with information about the summer school program?",
+          "What can you tell me about the summer school?",
+          "I'm interested in the summer school. Could you tell me more about it?",
+          "Could you give me some details about the summer school program?",
+          "I'm curious about the summer school. What should I know about it?",
+          "Can you explain to me what the summer school entails?",
+          "Could you provide me with an overview of the summer school program?",
+          "What is the summer school and how does it work?",
+          "I'm considering the summer school. What information do you have about it?",
+          "Can you tell me more about the summer school and its benefits?"
+        ],
+        "responses": [
+            "Sure! The University of Hertfordshire offers a variety of summer school programs for students who are interested in pursuing their education during the summer break. These programs are designed to provide students with a unique opportunity to explore new subjects, gain valuable experience, and broaden their horizons. You can also contact the Summer School Office for more information and guidance on the application process."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "health_kits",
+        "patterns": [
+          "Where I want to get sexual health kits?",
+          "Where can I obtain sexual health kits?",
+          "How can I get my hands on sexual health kits?",
+          "Is there a place where I can get sexual health kits?",
+          "What are my options for obtaining sexual health kits?",
+          "Can you tell me where to find sexual health kits?",
+          "Where can I get health-related kits?",
+          "Where can I find kits for health purposes?",
+          "Where can I obtain kits for my health needs?",
+          "Where can I get kits that are related to my health?",
+          "Where can I find health kits for personal use?",
+          "Where can I obtain health kits?",
+          "Where can I find health kits?",
+          "What are the locations where I can get health kits?",
+          "Which places provide health kits?",
+          "Can you tell me where to get health kits?",
+          "I need to know where I can get health kits."
+        ],
+        "responses": [
+            "You can access the following services from your Students' Union: Pharmacy services, Sexual health services, Health and wellbeing services. You can also make an appointment with the University's Medical Centre or visit a local pharmacy to purchase health kits or to seek advice on the appropriate health kits for your needs."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "job_search",
+        "patterns": [
+          "Is there any job for students?",
+          "Where can student find jobs",
+          "Are there any employment opportunities available for students?",
+          "Can students find jobs through the university?",
+          "Is there a job search service for students?",
+          "Are there any part-time jobs for students?",
+          "How can students search for job opportunities while studying?",
+          "Are there any employment opportunities for students or resources to find a job?",
+          "Can students find work or search for job vacancies?",
+          "Is there a job board or career services for students to find employment?",
+          "Are there part-time job options for students or ways to look for employment?",
+          "Is there assistance for students looking for employment or job search support available?",
+          "Can students find job openings or resources for job hunting?"
+        ],
+        "responses": [
+            "One great resource for finding jobs as a student is Handshake. Handshake is an online platform that connects students and recent graduates with job and internship opportunities. You can create a profile and upload your resume, and then browse through thousands of job postings and apply directly through the platform. Handshake also offers career fairs and events, as well as resources and tips for job searching and career development. To get started, visit https://herts.joinhandshake.co.uk/login and log in with your university credentials. Good luck with your job search!"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "USA_experience",
+        "patterns": [
+          "I want to get USA experience in summer school?",
+          "How can I participate in a summer school program in the USA?",
+          "Where can I find information about summer school programs in the USA?",
+          "Is there any way for me to gain experience in the USA through a summer school program?",
+          "Can you help me find a summer school program in the USA where I can gain valuable experience?",
+          "Is it possible to participate in a summer school program in the USA?",
+          "How can I gain experience in the USA through a summer school program?",
+          "Are there any summer school programs in the USA that I can apply for to gain experience?",
+          "I am interested in attending a summer school program in the USA, where can I find information about this?",
+          "Can you provide me with information about summer school programs in the USA that offer valuable experience?"
+        ],
+        "responses": [
+           "If you're interested in finding a summer program in the USA, one option could be to research different placements or work opportunities. A good place to start might be the website https://www.prospects.ac.uk/jobs-and-work-experience/working-abroad/work-in-the-usa, which provides more information on working abroad in the USA. This site may be able to provide you with more specific details on summer programs or opportunities that match your interests and qualifications."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "EU_settlement_scheme",
+        "patterns": [
+          "Can you guide me for EU Settlement Scheme?",
+          "Could you provide me with some guidance on the EU Settlement Scheme?",
+          "I need some help understanding the EU Settlement Scheme, can you guide me?",
+          "Can you give me advice on how to apply for the EU Settlement Scheme?",
+          "Can you provide me with information about the EU Settlement Scheme?",
+          "I am seeking guidance on how to apply for the EU Settlement Scheme. Can you assist me?",
+          "Do you have any advice on the EU Settlement Sche me application process?",
+          "Where can I find guidance on the EU Settlement Scheme?",
+          "I need help understanding the requirements for the EU Settlement Scheme. Can you guide me?",
+          "Could you provide me with information about the EU Settlement Scheme?",
+          "I need assistance with the EU Settlement Scheme, can you help me?",
+          "I'm looking for guidance on how to apply for the EU Settlement Scheme, can you point me in the right direction?",
+          "Can you give me some advice on how to navigate the EU Settlement Scheme?",
+          "Where can I find guidance on the EU Settlement Scheme?",
+          "I'm interested in the EU Settlement Scheme, could you give me some guidance on how to apply?",
+          "I have questions about the EU Settlement Scheme, can you provide some guidance or resources?",
+          "How do I go about applying for the EU Settlement Scheme, can you help me with that?",
+          "I need some guidance on the EU Settlement Scheme, can you direct me to some resources?"
+        ],
+        "responses": [
+            "Certainly! The EU Settlement Scheme (EUSS) is a program designed to protect the rights of EU, EEA, and Swiss citizens living in the UK after Brexit. If you are an EU, EEA, or Swiss national, you may need to apply for the EU Settlement Scheme to continue living in the UK after June 30, 2021. To learn more about the EU Settlement Scheme and how to apply, please visit the University of Hertfordshire's dedicated webpage on the topic at https://ask.herts.ac.uk/eu-settlement-scheme-euss. Here, you will find comprehensive information about the scheme, including eligibility requirements, application processes, and support available to you as a student at the University of Hertfordshire."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Hertfordshire_offering",
+        "patterns": [
+          "Can you guide me Hertfordshire offering the research degree or which area you are currently researching?",
+          "Can you tell me if Hertfordshire offers research degree programs, or what areas of research are currently being pursued?",
+          "I'm interested in pursuing a research degree, can you provide guidance on whether Hertfordshire has any such programs, or what research areas are currently active?",
+          "I'd like to know if Hertfordshire has any research degree options, or which research areas are currently being focused on. Can you guide me in this regard?",
+          "Could you provide information on whether Hertfordshire offers research degrees, or what research fields are currently being explored?",
+          "I'm curious about research degree programs at Hertfordshire or the current research areas. Can you offer any guidance?",
+          "Can you tell me about the research degrees available at Hertfordshire or the current research areas being explored?",
+          "I'm interested in pursuing a research degree at Hertfordshire. Can you provide information on the available programs or current research topics?",
+          "Could you please guide me on the research degrees offered by Hertfordshire or the research areas currently being studied?",
+          "I would like to know if Hertfordshire has any research degrees available or what kind of research is being done currently. Can you provide me with some information?",
+          "I want to apply for a research degree?",
+          "How can I enroll in a research degree program?",
+          "What are the steps to apply for a research degree?",
+          "Can you guide me on how to apply for a research degree?",
+          "What is the application process for a research degree program?",
+          "Is it possible to pursue a research degree at this institution?",
+          "How do I go about starting a research degree program?",
+          "I am interested in pursuing a research degree, can you provide more information on the application process?"
+        ],
+        "responses": [
+            "At Hertfordshire, we offer a range of research degrees, including Doctor of Philosophy (PhD), Master of Philosophy (MPhil), and Professional Doctorate programs. To learn more about the research degrees available, please visit our research page at http://www.herts.ac.uk/research. If you're interested in applying for a research degree, please send your initial enquiry to doctoralcollegeadmissions@herts.ac.uk. Our university has a diverse range of research groups and centers working on cutting-edge research in various fields, including science, engineering, social sciences, humanities, and the arts. To explore the current research being conducted at Hertfordshire, you can browse our research themes and centers at http://www.herts.ac.uk/research/centres-and-groups. We're committed to producing world-class research that makes a real difference in the world, and we encourage students to get involved in research projects and pursue their own research interests. If you have any questions or would like more information, please don't hesitate to contact us."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "tuition_fee_dates",
+        "patterns": [
+          "What is the tuition fees dates?",
+          "When are the tuition fees due?",
+          "Can you provide information on the dates for tuition fees?",
+          "What are the tuition fees payment deadlines?",
+          "I'm curious about the tuition fees schedule. Could you tell me more about it?",
+          "Could you inform me about the dates that tuition fees are required to be paid?",
+          "When are the deadlines for tuition fees payment?",
+          "What are the tuition fees payment dates?",
+          "I'm wondering about the dates for paying tuition fees. Could you give me more details?",
+          "Can you tell me the deadline for tuition fees payment?",
+          "What are the tuition fees payment deadlines?",
+          "When do I need to pay my tuition fees?",
+          "Could you provide me with information on tuition fees payment dates?",
+          "I'm wondering when the tuition fees deadlines are, can you help me with that?",
+          "tuition fee dates"
+        ],
+        "responses": [
+            "You can find the tuition fee liability dates for the 2021-22 academic year at the following link: https://ask.herts.ac.uk/2021-22-semester-a-and-b-tuition-fee-liabilty-dates. It's important to note that the tuition fee liability dates determine the deadline for paying your tuition fees or arranging for a payment plan. If you miss the deadline, you may incur late payment fees or even risk being withdrawn from your course. Be sure to check the tuition fee liability dates for your specific program and plan accordingly to avoid any issues. If you have any further questions or concerns, you can contact the university's student finance team for assistance."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "student_oyster",
+        "patterns": [
+          "How I can get the student oyster 18+?",
+          "What is the process to obtain an 18+ student Oyster card?",
+          "Can you guide me on how to get an 18+ student Oyster card?",
+          "How do I apply for an 18+ student Oyster card?",
+          "Is there a way for me to get an 18+ student Oyster card?",
+          "Can you provide information on how to acquire an 18+ student Oyster card?",
+          "How can I obtain a student Oyster card for 18+?",
+          "What is the process for getting an 18+ student Oyster card?",
+          "Is it possible to apply for a student Oyster card for those over 18? If so, how?",
+          "Can you guide me on how to get a student Oyster card for people aged 18 and over?",
+          "Where can I find information on applying for a student Oyster card as an 18+ student?",
+          "Student Oyster Card"
+        ],
+        "responses": [
+            "To get a Student Oyster 18+ card, you must first be enrolled in a full-time course at a university or college that's registered with Transport for London. Once you've enrolled, you can apply for the card online through the TfL website. You'll need to provide your university or college enrolment details, your course start and end dates, and a digital photo of yourself. You'll also need to pay a fee for the card. It's important to note that the Student Oyster 18+ card is only available to full-time students who are 18 or over and studying on courses lasting at least 14 weeks. You'll also need to be living in a London borough during term time to be eligible. For more information and to apply for the Student Oyster 18+ card, please visit the TfL website at https://tfl.gov.uk/fares/free-and-discounted-travel/18-student-oyster-card."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "learning_dashboard",
+        "patterns": [
+          "How can I access My Learning dashboard?",
+          "What is the process to access My Learning dashboard?",
+          "Could you guide me on how to reach the My Learning dashboard?",
+          "What are the steps to follow in order to access My Learning dashboard?",
+          "I am wondering how I can get into My Learning dashboard. Can you help?",
+          "Can you explain how to log in to My Learning dashboard?",
+          "Where do I go to access My Learning dashboard?",
+          "Is there a specific way to access My Learning dashboard that I should know about?",
+          "I am having trouble finding My Learning dashboard. Can you tell me how to access it?",
+          "What is the procedure to access My Learning dashboard?",
+          "Can you give me instructions on how to reach My Learning dashboard?"
+        ],
+        "responses": [
+            "To access your My Learning dashboard, simply click on the 'My Learning' chart icon located on your StudyNet homepage at https://www.studynet.herts.ac.uk/. This will take you directly to your personalised dashboard, which provides a quick and easy overview of your course materials, assessments, and progress. If you need more information about using the My Learning dashboard, you can visit the official Hertfordshire University website and browse the frequently asked questions at https://ask.herts.ac.uk/my-learning-dashboard. Additionally, if you encounter any technical issues or have further questions, you can always contact the IT Services Helpdesk for assistance."
+        ],
+        "context": [
+          ""
+        ]
+      }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+flask
+Flask-Cors
+numpy==1.26.4
+pandas
+keras
+nltk
+protobuf
+tinydb
+flair
+vaderSentiment
+SpeechRecognition
+pydub
+librosa
+python-dotenv
+gensim
+wget
+fuzzywuzzy
